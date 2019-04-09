@@ -1,5 +1,0 @@
-*.retry
-*.tfstate
-*vault.yml
-*terraform*
-*avault_vars.yml
