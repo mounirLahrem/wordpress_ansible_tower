@@ -10,7 +10,6 @@
     - { name : php-mysql }
     - { name : php-PHPMailer }
     - { name : php-process }
-    - { name : php-simplepie }
     - { name : php-xml }
 
 - name: Disable default pool
