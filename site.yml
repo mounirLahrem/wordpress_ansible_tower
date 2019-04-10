@@ -2,8 +2,8 @@
 - name: Install WordPress, MariaDB, and PHP-FPM
   hosts: tag_Name_webserver
   remote_user: ec2-user
-  # remote_user: user
-  sudo: yes
+  become: true
+  become_method: sudo
 
   roles:
     - mariadb
